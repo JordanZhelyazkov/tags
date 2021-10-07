@@ -1,4 +1,7 @@
+import React from "react";
 import "./App.css";
+import Tags from './Tags';
+
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          Edit the <code>./src</code> folder to add components.
+          <div class="tags">
+          <Tags />
+          </div>
+          {/* Edit the <code>./src</code> folder to add components. */}
         </div>
       </div>
     </div>
