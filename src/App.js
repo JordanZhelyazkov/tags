@@ -14,9 +14,7 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          <div class="tags">
           <Tags />
-          </div>
           {/* Edit the <code>./src</code> folder to add components. */}
         </div>
       </div>
