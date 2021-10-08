@@ -1,9 +1,10 @@
-import { render } from "react-dom";
-import React from "react";
+import React, { useState } from 'react';
+
 
 
 const Tags = (props) => {
-    const tagsNew = props.tags;
+    const [tagsArr, arr] = useState(props);
+    const tagsNew = tagsArr.tags;
     const listItems = tagsNew.map((tag) => 
         <li className="tag">#{tag}</li>);
     return (
