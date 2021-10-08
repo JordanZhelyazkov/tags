@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Tags from './Components.js/Tags';
+import Tags from './Tags';
 
 
 function App() {
@@ -17,7 +17,7 @@ const tags = ["boomdotdev", "task", "tags", "react"];
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          <Tags tags={tags}/>
+          <Tags tags={tags} />
           {/* Edit the <code>./src</code> folder to add components. */}
         </div>
       </div>
